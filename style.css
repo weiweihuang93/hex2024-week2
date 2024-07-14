@@ -34,6 +34,9 @@ h2{
     justify-content: space-between;
     align-items: center;
 }
+.navlist li a:hover{
+    color: #FFFFFF;
+}
 /* section-prof */
 .section-prof{
     background: #000000;
@@ -72,9 +75,12 @@ h2{
     border-radius: 32px;
     background: #FFFFFF;
 }
+.prof-btn a:hover{
+    background: #d1d1d1;
+}
 /* section-intro */
 .section-intro{
-    background-image: url(/img/background-img.png);
+    background-image: url(img/background-img.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -214,6 +220,9 @@ h2{
     border-radius: 32px;
     background: #000000;
     color: #FFFFFF;
+}
+.product-btn a:hover{
+    background: #d1d1d1;
 }
 .product-box-bottom{
     display: flex;
