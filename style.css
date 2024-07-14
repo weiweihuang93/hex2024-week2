@@ -1,0 +1,236 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Bruno Ace SC", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    font-style: normal;
+}
+img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+h2{
+    font-size: 64px;
+}
+.container{
+    max-width: 1296px;
+    margin: auto;
+}
+/* header */
+.header{
+    background: #000000;
+    padding: 40px 0;
+    color: #D1D1D1;
+}
+.navlist{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* section-prof */
+.section-prof{
+    background: #000000;
+    padding: 72px 0 32px;
+}
+.section-prof .container{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.prof-pic{
+    width: 636px;
+    height: 848px;
+}
+.prof-txt{
+    width: 636px;
+}
+.prof-txt p{
+    font-size: 64px;
+    color: #FFFFFF;
+}
+.prof-txt h1{
+    font-size: 128px;
+    color: #00FFA3;
+    text-align: right;
+}
+.prof-btn{
+    display: flex;
+}
+.prof-btn a{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 12px 24px;
+    border-radius: 32px;
+    background: #FFFFFF;
+}
+/* section-intro */
+.section-intro{
+    background-image: url(/img/background-img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.section-intro .container{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 24px;
+    padding: 160px 0;
+    color: #FFFFFF;
+}
+.intro-pic{
+    width: 746px;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.intro-txt{
+    width: 526px;
+}
+.intro-txt h2{
+    margin-bottom: 36px;
+}
+.intro-txt p{
+    font-size: 24px;
+    margin-bottom: 32px;
+}
+.intro-txt-pic{
+    display: flex;
+    gap: 16px;
+}
+/* section-about */
+.section-about .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 160px 0;
+    color: #000000;
+}
+.about-txt{
+    width: 526px;
+}
+.about-txt h2{
+    margin-bottom: 36px;
+}
+.about-txt p{
+    font-size: 24px;
+    color: #15161D;
+}
+.about-list{
+    width: 636px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.about-list li{
+    width: 306px;
+    padding: 16px;
+    border: 1px solid #E3E3E3;
+    box-shadow: 4px 4px 4px 0px #00000014;
+}
+.about-list li p:first-of-type{
+    font-size: 20px;
+}
+.about-list li h3{
+    font-size: 20px;
+    margin: 4px 0;
+}
+/* section-contact */
+.section-contact{
+    background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+}
+.section-contact .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 96px 0;
+    color: #FFFFFF;
+}
+.contact-txt{
+    display: flex;
+    align-items: center;
+}
+.contact-txt img{
+    margin-left: 16px;
+}
+.contact-pic{
+    display: flex;
+    gap: 20px;
+}
+.contact-pic img{
+    border-radius: 40px;
+}
+.contact-pic img:hover{
+    box-shadow: 0px 0px 16px 3px #9094FFE5, 0px 4px 4px 0px #00000040;
+}
+.contact-pic .pic-hover{
+    box-shadow: 4px 4px 8px 0px #00000014;
+}
+/* section-product */
+.section-product .container{
+    padding: 160px 0;
+}
+.title{
+    width: 746px; 
+    margin-left: auto;
+}
+.title h2{
+    margin-bottom: 16px;
+}
+.product{
+    display: flex;
+    gap: 24px;
+}
+.product-left{
+    width: 416px;
+}
+.product-right{
+    width: 856px;
+}
+.product-box-top{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 28px;
+}
+.product-txt{
+    width: 636px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.product-btn a{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 12px 24px;
+    border-radius: 32px;
+    background: #000000;
+    color: #FFFFFF;
+}
+.product-box-bottom{
+    display: flex;
+    gap: 24px;
+}
+.product-box-bottom-left{
+    width: 306px;
+}
+.product-box-bottom-right{
+    width: 526px;
+}
+/* footer */
+.footer{
+    background: #000000;
+}
+.footer .container{
+    padding: 40px 0;
+    text-align: center;
+    color: #FFFFFF;
+}
